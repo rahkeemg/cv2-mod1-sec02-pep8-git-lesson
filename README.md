@@ -1,13 +1,20 @@
 
 ### Questions
-* git merge lab - git push origin master threw an error
-* git log --graph
+* How to upload to learn? Don't do that..
+* `git add` and `git commit` combine with `git commit -a`
 
 ### Objectives
 YWBAT
 * define git
+    * version control system
+        * allows one to track changes in a project
+        * simplifies collaboration across teams and users/developers
+        * is meant to maintain production quality on master branch
+        * is a great tool for collaboration in the open source community
 * perform branching and merges in git (remotely)
 * compare and contrast git commit to git push
+* explain why pep8 is so important to the python community
+* modify code to pep8 standards
 
 ### Outline
 * Git stuff 
@@ -21,7 +28,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 ```
 
-# Pep 8 Standards (Because we aren't newbs)
+### Let's do git stuff on terminal for the first half of the study group
+
+
+**Things we'll do**
+- Make a branch of this lesson
+- Merge the branch with the master branch
+- Push changes to github and view results
+
+# Pep 8 Standards
 
 
 ```python
@@ -84,6 +99,15 @@ print(my_function(3, 4, 2, 9))
 
     5
 
+
+### Let's do some matplotlib stuff real quick, also
+
+
+```python
+import numpy as np
+
+import matplotlib.pyplot as plt
+```
 
 ### Assessment
 
